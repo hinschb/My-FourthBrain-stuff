@@ -20,3 +20,5 @@ git push  origin main
 git remote add WD git@github.com/FourthBrain/Whodunit.git
 git remote  -v
 wd git@github.com:FourthBrain/whodunit.git (fetch)
+git fetch  --all
+git checkout  --track  -b  WDBranch  WD/main
