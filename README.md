@@ -22,3 +22,6 @@ git remote  -v
 wd git@github.com:FourthBrain/whodunit.git (fetch)
 git fetch  --all
 git checkout  --track  -b  WDBranch  WD/main
+git log  --all  --graph
+git checkout main
+git merge WDBranch  --allow-unrelated-histories
