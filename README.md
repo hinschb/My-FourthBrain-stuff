@@ -25,3 +25,5 @@ git checkout  --track  -b  WDBranch  WD/main
 git log  --all  --graph
 git checkout main
 git merge WDBranch  --allow-unrelated-histories
+git fetch  --all
+git  checkout  WDBranch
